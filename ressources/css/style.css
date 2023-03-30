@@ -5,3 +5,15 @@
 .separatore {
     max-height: 1rem;
 }
+
+.nav-item{
+    font-family: "Bauhaus 93";
+}
+
+.text-dark{
+    color: brown;
+}
+
+.smallpic   {
+    max-width: 5rem;
+}
