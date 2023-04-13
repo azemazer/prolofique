@@ -1,6 +1,13 @@
-#navlogo {
+#navlogo, #footerlogo {
     max-height: 2rem;
+    width: auto;
 }
+
+#headermotif {
+    max-height: 10rem;
+    width: auto;
+}
+
 
 .separatore {
     max-height: 1rem;
@@ -19,4 +26,8 @@
 }
 p {
     margin-top: 1rem;
+}
+
+body, header, nav, footer {
+    background-color: #DBD6C1;
 }
