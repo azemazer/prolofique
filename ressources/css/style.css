@@ -8,9 +8,28 @@
     width: auto;
 }
 
+.divisersvg {
+    max-height: 18rem;
+}
+
+.sectiondiviser {
+    
+}
+
+.extlinkpic {
+    max-height: 2rem;
+    width: auto;
+}
 
 .separatore {
     max-height: 1rem;
+    width: auto;
+}
+
+.gobutton {
+    max-height: 3rem;
+    width: auto;
+    justify-self: flex-start;
 }
 
 .nav-item{
