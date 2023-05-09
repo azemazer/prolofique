@@ -16,7 +16,7 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm fixed-top">
+    <nav class="navbar navbar-expand-sm fixed-top col-12">
         <div class="container-fluid justify-content-center">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -41,27 +41,29 @@
     </nav>
     
     <header>
-        <div class="headerbloc container">
-            <div class="headerpart col">
-                <div class="row">
-                    <h1>Le vrai son.</h1>
+        <div class="headerbloc mt-5 container">
+            <div class="row">
+                <div class="headerpart col">
+                    <div class="row">
+                        <h1 class="display-1">Le vrai son.</h1>
+                    </div>
+                    <div class="headerpicto row">
+                        <img src="ressources/images/disc.png" alt="image du disque" class="smallpic col">
+                        <p class="col">Choisissez parmis un catalogue ou commandez votre musique sur mesure</p>
+                    </div>
+                    <div class="headerpicto row">
+                        <img src="ressources/images/loupe.png" alt="image de la loupe">
+                        <p>Un large choix de musiques sans droits d'auteurs et gratuites avec de vrais instruments</p>
+                    </div>
                 </div>
-                <div class="headerpicto row">
-                    <img src="ressources/images/disc.png" alt="image du disque" class="smallpic col">
-                    <p class="col">Choisissez parmis un catalogue ou commandez votre musique sur mesure</p>
+                <div class="headerpart col">
+                    <img id="headermotif" src="ressources/svg/header-motif.svg">
                 </div>
-                <div class="headerpicto row">
-                    <img src="ressources/images/loupe.png" alt="image de la loupe">
-                    <p>Un large choix de musiques sans droits d'auteurs et gratuites avec de vrais instruments</p>
-                </div>
-            </div>
-            <div class="headerpart col">
-                <img id="headermotif" src="ressources/svg/header-motif.svg">
             </div>
         </div>
     </header>
 
-    <main class="bg-dark py-4">
+    <main class="bg-dark py-4 container-fluid">
         <div class="section">
            <div class="blocsection container d-flex align-items-center justify-content-center flex-column ">
                 <div class="sectionseparate my-5 row">
@@ -70,7 +72,7 @@
                         <p class="text-light fs-4 text-center text-uppercase fw-light mx-5">Un catalogue rempli de musiques variées. Achetez leurs licenses ou profitez de leur utilisation gratuite</p>
                     </div>
                     <div class="sectionitem col">
-                        <div class="sectioniteminside align-content-end">
+                        <div class="sectioniteminside d-flex flex-column justify-content-end">
                             <p class="text-light text-uppercase text-end">Accédez au</p>
                             <img class="separatore" src="ressources/images/separaor1.png">
                             <p class="text-light text-uppercase text-end">catalogue</p>
@@ -89,7 +91,7 @@
                         <p class="text-light fs-4 text-center text-uppercase fw-light mx-5">Commandez vos propres musiques sur-mesures et obtenez-en la licence</p>
                     </div>
                     <div class="sectionitem col">
-                        <div class="sectioniteminside">
+                        <div class="sectioniteminside d-flex flex-column justify-content-end">
                             <p class="text-light text-uppercase align-middle">Accédez aux</p>
                             <img class="separatore align-middle" src="ressources/images/separator2.png">
                             <p class="text-light text-uppercase align-middle">commandes</p>
@@ -108,13 +110,13 @@
                         <p class="text-light fs-4 text-center text-uppercase fw-light mx-5">Derrière chaque artiste, il y a un humain. Découvrez-le à travers son portfolio</p>
                     </div>
                     <div class="sectionitem col">
-                        <div class="sectioniteminside">
-                            <p class="row text-light text-uppercase">Accédez au</p>
-                            <div class="row">
-                                <img class="separatore col" src="ressources/images/separator3.png">
-                                <img class="gobutton col" src="ressources/svg/Composant 4 – 5.svg">
+                        <div class="sectioniteminside d-flex flex-column justify-content-end">
+                            <p class="text-light text-uppercase">Accédez au</p>
+                            <div>
+                                <img class="separatore" src="ressources/images/separator3.png">
+                                <img class="gobutton" src="ressources/svg/Composant 4 – 5.svg">
                             </div>
-                            <p class="row text-light text-uppercase">portfolio</p>
+                            <p class="text-light text-uppercase">portfolio</p>
                         </div>
                         <div class="sectioniteminside">
                             <img>
@@ -130,7 +132,7 @@
                         <p class="text-light fs-4 text-center text-uppercase fw-light mx-5">Si vous avez des questions sur le fonctionnement du site, cliquez ici</p>
                     </div>
                     <div class="sectionitem col">
-                        <div class="sectioniteminside">
+                        <div class="sectioniteminside d-flex flex-column justify-content-end">
                             <p class="text-light text-uppercase">Accédez à la</p>
                             <img class="separatore" src="ressources/images/separator4.png">
                             <p class="text-light text-uppercase">faq</p>
@@ -141,7 +143,7 @@
                     </div>
                 </div>
                 <div class="sectiondiviser">
-                    <img class="row divisersvg" src="ressources/svg/line_catalog.svg">
+                    <img class="row divisersvg" src="ressources/svg/line_faq.svg">
                 </div>
            </div> 
         </div>
@@ -149,32 +151,34 @@
 
     <footer class="border-top border-5 border-warning">
         <div class="p-4 container">
-            <div class="col-8 border-right border-5 border-warning">
-                <div class="row">
-                    <img id="footerlogo" src="ressources/images/logo.png">
-                </div>
-                <div class="row">
-                    <h5 class="col">CONTACT</h5>
-                    <h5 class="col">A PROPOS DE MOI</h5>
-                </div>
-                <div class="row">
-                    <p>Prolofique Terms - Privacy</p>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="row">
-                    <div class="col">
-                        <img class="extlinkpic" src="ressources/svg/Icon feather-youtube.svg">
+            <div class="row">
+                <div class="col-8 border-right border-5 border-warning">
+                    <div class="row">
+                        <img id="footerlogo" src="ressources/images/logo.png">
                     </div>
-                    <div class="col">
-                        <img class="extlinkpic" src="ressources/svg/Icon simple-spotify.svg">
+                    <div class="row">
+                        <h5 class="col">CONTACT</h5>
+                        <h5 class="col">A PROPOS DE MOI</h5>
                     </div>
-                <div class="row">
-                    <div class="col">
-                        <img class="extlinkpic" src="ressources/svg/Icon simple-bandcamp.svg">
+                    <div class="row">
+                        <p>Prolofique Terms - Privacy</p>
                     </div>
-                    <div class="col">
-                        <img class="extlinkpic" src="ressources/svg/Icon simple-soundcloud.svg">
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col">
+                            <img class="extlinkpic" src="ressources/svg/Icon feather-youtube.svg">
+                        </div>
+                        <div class="col">
+                            <img class="extlinkpic" src="ressources/svg/Icon simple-spotify.svg">
+                        </div>
+                    <div class="row">
+                        <div class="col">
+                            <img class="extlinkpic" src="ressources/svg/Icon simple-bandcamp.svg">
+                        </div>
+                        <div class="col">
+                            <img class="extlinkpic" src="ressources/svg/Icon simple-soundcloud.svg">
+                        </div>
                     </div>
                 </div>
             </div>
